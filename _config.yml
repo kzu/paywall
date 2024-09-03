@@ -20,7 +20,6 @@ share-links-active:
 
 permalink:        /:title.html 
 url:              https://www.cazzulino.com
-baseurl:          "paywall"
 gtag:             G-5THB4CL7H1
 google-search-id: fab2fac2137f17958
 
@@ -34,6 +33,7 @@ navbar-col: "black"
 navbar-text-col: "transparent"
 hover-col: "green"
 link-col: "#418C41"
+site-css: /site.css
 
 defaults:
   - scope:
