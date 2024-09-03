@@ -22,7 +22,10 @@ que te permitirá leer el contenido sin pagar.
     </tr>
 </table>
 
-<p id="status" style="display: none;">
+<p id="status">
+    There is no guarantee that this approach will work with every paywall.
+    <br><br>
+    No hay garantía de que este método funcione con todos los paywalls.
 </p>
 
 <p id="reader" style="display: none;">
