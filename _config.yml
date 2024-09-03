@@ -1,0 +1,43 @@
+plugins: 
+  - jekyll-paginate
+  - jekyll-remote-theme
+
+remote_theme: kzu/beautiful-jekyll@main
+author: Daniel Cazzulino
+title : Daniel Cazzulino
+description : A simple way to bypass (most?) paywalls
+title-img: https://www.devlooped.com/img/icon.svg
+navbar-img: https://api.kzu.io/background.svg
+avatar: /img/kzu.jpg
+
+social-network-links:
+  alias:         kzu
+  github:        kzu
+  twitter:       kzu
+
+share-links-active:
+  github:        true
+  twitter:       true
+
+permalink:        /:title.html 
+url:              https://www.cazzulino.com
+baseurl:          ""
+gtag:             G-5THB4CL7H1
+google-search-id: fab2fac2137f17958
+
+exclude:      [ "readme.md", "license.txt", "CNAME", ".gitattributes", ".gitignore", ".editorconfig" ]
+port:         3000
+host:         127.0.0.1
+
+url-pretty: "cazzulino.com"
+excerpt_length: 100
+navbar-col: "black"
+navbar-text-col: "transparent"
+hover-col: "green"
+link-col: "#418C41"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      head-extra: favicon.html
